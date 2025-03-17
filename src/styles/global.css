@@ -5,8 +5,8 @@
  */
 
 :root {
-	--accent: #2337ff;
-	--accent-dark: #000d8a;
+	--accent: #4a6cf7;
+	--accent-dark: #0039a6;
 	--black: 15, 18, 25;
 	--gray: 96, 115, 159;
 	--gray-light: 229, 233, 240;
@@ -30,8 +30,22 @@
 	font-style: normal;
 	font-display: swap;
 }
+@font-face {
+	font-family: 'Futura';
+	src: url('https://fonts.cdnfonts.com/s/29149/Futura-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Futura';
+	src: url('https://fonts.cdnfonts.com/s/29149/Futura-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
 body {
-	font-family: 'Atkinson', sans-serif;
+	font-family: 'M PLUS 1p', 'Atkinson', sans-serif;
 	margin: 0;
 	padding: 0;
 	text-align: left;
@@ -58,6 +72,7 @@ h6 {
 	margin: 0 0 0.5rem 0;
 	color: rgb(var(--black));
 	line-height: 1.2;
+	font-family: 'Futura', sans-serif;
 }
 h1 {
 	font-size: 3.052em;
